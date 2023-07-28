@@ -1,0 +1,281 @@
+            
+@media only screen and (min-width :880px) and (max-width : 1174px){
+	.img-dip-1{
+			width: calc(100% - 10px);
+			height: 500px;
+			border: 1px solid darkgrey;
+			border-radius: 10px;
+	}
+	
+	body{
+	background-color:rgb(240, 240, 240);
+	margin: 10px calc((100vw - 650px) / 2);
+	background: #ADD8E6;
+}
+
+.sct{
+	width: 650px;
+	background-color:rgb(240, 240, 240);
+	margin-left: 0px;
+	padding-top: 120px;
+}
+
+
+
+.navigation{
+	width: 750px;
+	height: 50px;				
+	position: absolute;
+	display: flex;
+	top: 0px;
+	left: calc(((100%) - 790px) / 2);
+}
+
+.navigation ul{
+	display: flex;
+	width: 750px;
+}
+
+.navigation ul li{
+	position: relative;
+	list-style: none;
+	width: 25%;
+	height: 70px;
+	z-index: 1;
+}
+
+.navigation ul li a{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+	font-weight: 500;
+}
+
+.navigation ul li a .icon{
+	position: relative;
+	display: block;
+	line-height: 75px;
+	 font-size: 1.5em;
+	 text-align: center;
+	 transition: 0.5s;
+	  color: #1E90FF;
+	
+}
+
+.navigation ul li.active a .icon{
+	transform: translateY(0px);
+	 color: #1E90FF;
+}
+
+.navigation ul li a .text{
+	position: absolute;
+	color: #1E90FF;
+	font-weight: 400;
+	font-size: 0.75em;
+	letter-spacing: 0.05em;
+	transition: 0.5s;
+	opacity: 0;
+	transform: translateY(30px);
+}
+
+.navigation ul li.active a .text{
+	opacity: 1;
+	transform: translateY( );
+	color: blue;
+}
+
+
+.indicator{
+	position: absolute;
+	top: 0px;
+	width: 70px;
+	height: 70px;
+	background: transparent;
+	border-radius: 50%;
+	border: 6px solid rgb(240, 240, 240);
+	transition: 0.5s;
+	left: 55px;
+}
+
+/*	.indicator::before{
+	content: '';
+	position: absolute;
+	top: 7px;
+	left: -40px;
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	border-bottom-right-radius: 100%;
+	box-shadow: 0px 20px 0px 0px rgb(240, 240, 240);
+}
+
+.indicator::after{
+	content: '';
+	position: absolute;
+	top: 7px ;
+	left: 75px;
+	width: 20px;
+	height: 20px;
+	background: white;
+	border-bottom-left-radius: 20px;
+	box-shadow: 0px -10px 0 0 #00FF7F;
+}*/
+
+.navigation ul li:nth-child(1).active ~ .indicator{
+	transform: translateX(calc(120px * 0));
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator{
+	transform: translateX(calc(120px * 1));
+}
+
+.navigation ul li:nth-child(3).active ~ .indicator{
+	transform: translateX(calc(120px * 2));
+}
+
+.navigation ul li:nth-child(4).active ~ .indicator{
+	transform: translateX(calc(120px * 3));
+}
+
+.navigation ul li:nth-child(5).active ~ .indicator{
+	transform: translateX(calc(120px * 4));
+}
+
+.navigation ul li:nth-child(6).active ~ .indicator{
+	transform: translateX(calc(120px * 5));
+}
+
+
+
+
+
+
+.header1{
+	position: fixed;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	background-color: white;
+	height: 50px;
+}
+.lf-div{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:300px;
+	height: 50px;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+.logo-fs{
+	width: 50px;
+	height: 50px; 
+	border-radius: 100%; 
+	margin: auto 10px auto 10px;
+}
+
+.rt-div{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 270px;
+	height: 50px;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+.avt-user{
+	width: 50px; 
+	height: 50px; 
+	border-radius: 100%; 
+	margin: auto 10px auto 10px;
+
+}
+
+.frm-rch1{
+	display: flex;
+	position: fixed;
+	left: 300px;
+	height: 50px;
+	width: calc(100% - 640px);
+	justify-items: center;
+	background-color: transparent;
+}
+
+.rch1{
+	width: calc(100% - 35px);
+	height: 30px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.btn-sub1{
+	margin-left: 4px;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	margin-top: 10px;
+	border-color: white;
+	border-radius: 5px;
+}
+
+.empity4{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #00FF7F;
+}
+.button-bars{
+	width: 0;
+	height: 0;
+	display: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.champ-name-fs1{
+	position: fixed;
+	top: 0px;
+	padding-top: 15px;
+	left: 70px;
+	width: 200px;
+	height: 50px;
+	display: block;
+}
+
+.name-fs1{
+	font-family: "cooper black", serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: green;
+}
+
+.show-form{
+	width: 0;
+	height: 0;
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+.users-name{
+	position: fixed;
+	top: -8px;
+	height: 50px;
+	width: 200px;
+	right: 0px;
+}
+}
+
+

@@ -1,0 +1,153 @@
+	@media only screen and (min-width :0px) and (max-width : 650px) {
+
+		body {
+			background-color: rgb(240, 240, 240);
+			margin: 0px;
+		}
+
+		.user_champ_login {
+			margin-top: 0px;
+			width: 100vw;
+			border-radius: 10px;
+			background-color: white;
+			padding-bottom: 50px;
+			min-height: 100vh;
+		}
+
+		.frm0 {
+			padding-top: 10px;
+			width: 80%;
+			margin-left: 10%;
+		}
+
+		input {
+			width: calc(100% - 6px);
+			margin-bottom: 10px;
+			border: none;
+			border-bottom: 1px solid darkgray;
+			padding-left: 10px;
+			color: rgba(0, 0, 0, 0.7);
+		}
+
+		input:focus {
+			outline: none;
+			border: none;
+			border-bottom: 2px solid blue;
+		}
+
+
+		form div {
+			display: flex;
+		}
+
+		form div span {
+			display: block;
+			border-bottom: 1px solid darkgray;
+			height: 18px;
+			color: rgba(22, 160, 202, 0.7);;
+		}
+
+		.ttl {
+			color: #1E90FF;
+			display: flex;
+			text-align: center;
+			width: 100%;
+			font-size: 20px;
+			padding-bottom: 10px;
+			font-weight: bold;
+			justify-content: center;
+		}
+
+		input[type=submit] {
+			background-color: #1E90FF;
+			color: white;
+			font-weight: bold;
+			font-size: 16px;
+			border-radius: 30px;
+		}
+	}
+
+	@media only screen and (min-width :650px) {
+		body {
+			background-color: rgb(240, 240, 240);
+			margin: 0px;
+			display: flex;
+			justify-content: center;
+			margin-top: 60px;
+		}
+
+		.user_champ_login {
+			margin-top: 0px;
+			width: 500px;
+			border-radius: 10px;
+			background-color: white;
+			padding-bottom: 50px;
+		}
+
+		.frm0 {
+			padding-top: 10px;
+			width: 80%;
+			margin-left: 10%;
+		}
+
+		input {
+			width: calc(100% - 6px);
+			margin-top: 10px;
+			border: none;
+			border-bottom: 1px solid darkgray;
+			padding-left: 10px;
+			color: rgba(0, 0, 0, 0.7);
+		}
+
+		input:focus {
+			outline: none;
+			border: none;
+			border-bottom: 2px solid blue;
+		}
+
+
+		form div {
+			display: flex;
+		}
+
+		form div span {
+			display: block;
+			border-bottom: 1px solid darkgray;
+			height: 18px;
+			color: rgba(22, 160, 202, 0.7);
+			padding-top: 8px;
+			padding-bottom: 2px;
+		}
+
+		.ttl {
+			color: #1E90FF;
+			display: flex;
+			text-align: center;
+			width: 100%;
+			font-size: 20px;
+			padding-bottom: 10px;
+			font-weight: bold;
+			justify-content: center;
+		}
+
+		input[type=submit] {
+			background-color: #1E90FF;
+			color: white;
+			font-weight: bold;
+			font-size: 16px;
+			height: 30px;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		/*span i{
+			border: none;
+			padding-bottom: 2px;
+			border-bottom:  1px solid darkgray;
+			margin-top: 10px;
+			color: #1E90FF;
+		}*/
+	}
+
+	a {
+		text-decoration: none;
+	}
