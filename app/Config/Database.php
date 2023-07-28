@@ -26,7 +26,7 @@ class Database extends Config
      */
     public array $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
+        'hostname' => 'https://fanantenanafatima.github.io/facsii/',
         'username' => 'root',
         'password' => '',
         'database' => 'fds',
